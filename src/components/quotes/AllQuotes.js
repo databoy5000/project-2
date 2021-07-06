@@ -1,9 +1,8 @@
 
 import React from 'react'
-import QuoteCard from './QuoteCard'
 import { useFilter } from '../../hooks/useFilter'
-import { useState } from 'react'
 import Error from '../common/Error'
+import QuoteCard from './QuoteCard'
 
 
 function AllQuotes({ error }) {
@@ -28,6 +27,7 @@ function AllQuotes({ error }) {
         target.scrollTop = 0
       }
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchForm])
 
   const handleScroll = ({ target }) => {
