@@ -25,11 +25,11 @@ We also defined some stretch goals/additional feature ideas whilst brainstorming
 Once the scope of our tasks was defined, we proceeded to build wireframes.
  
 #### Landing Page
-![Landing Page](./screenshots/LandingPage.png "Home Page")
+![Landing Page](https://imgur.com/tX6NyvF.png "Home Page")
 #### Quotes Pages
-![Quotes Pages](./screenshots/AllQuotes.png "Quotes Page")
+![Quotes Pages](https://imgur.com/AURFfAB.png "Quotes Page")
 #### Random Quote Page
-![Random Quote Page](./screenshots/RandomQuote.png "Random Quote Page")
+![Random Quote Page](https://imgur.com/od8BPNQ.png "Random Quote Page")
  
 ### Technologies
 - HTML
@@ -44,7 +44,30 @@ Once the scope of our tasks was defined, we proceeded to build wireframes.
  
 ### API Documentation
 [GoQuotes API](https://goquotes.docs.apiary.io/#)
- 
+
+### Table of Contents
++ [Summary](#summary)
+  - [Landing Page](#landing-page)
+  - [Quotes Pages](#quotes-pages)
+  - [Random Quote Page](#random-quote-page)
++ [Technologies](#technologies)
++ [Libraries](#libraries)
++ [API Documentation](#api-documentation)
++ [Table of Contents](#table-of-contents)
++ [Pages](#pages)
++ [Functionalities](#functionalities)
+  - [API request & Local Storage](#api-request---local-storage)
++ [Get/Display Random Quote](#get-display-random-quote)
+  - [Filter hook](#filter-hook)
+  - [Infinite scroll](#infinite-scroll)
++ [In-app Screenshots](#in-app-screenshots)
++ [Lessons Learnt](#lessons-learnt)
+  - [Version Control](#version-control)
+  - [Debugging](#debugging)
+  - [Multiple API calls into one function](#multiple-api-calls-into-one-function)
+  - [Team work makes the dream work](#team-work-makes-the-dream-work)
++ [Credits](#credits)
+
 ### Pages
 1. Home page
 2. Random Quote
@@ -142,8 +165,8 @@ if (filteredQuotes) {
 At last, `loadingArray` is the final endpoint to display the quotes within the pages' function return value.
  
 ### In-app Screenshots
-![random quote page](./screenshots/randomPageScreenshot.png "random quote page")
-![Quotes page](./screenshots/quotesPageScreenshot.png "Quote page")
+![random quote page](https://imgur.com/FEaLZ0S.png "random quote page")
+![Quotes page](https://imgur.com/WXAizLs.png "Quote page")
  
 ### Lessons Learnt
  
