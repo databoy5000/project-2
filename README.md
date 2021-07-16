@@ -23,6 +23,12 @@ We also defined some stretch goals/additional feature ideas whilst brainstorming
 - Consolidate current API data with an additional API to augment UX.
  
 Once the scope of our tasks was defined, we proceeded to build wireframes.
+
+#### Live Demo, Useful Links
+
+[<img alt="Live Demo" src="https://imgur.com/P2NkQ7Q.png" height="35px">](https://dazzling-hoover-5876ce.netlify.app)
+[<img alt="Follow databoy5000" src="https://imgur.com/QCKp4U4.png" height="35px">](https://github.com/login?return_to=%2Fdataboy5000)
+[<img alt="Client Repository" src="https://imgur.com/XyaL8Dg.png" height="35px">](https://github.com/databoy5000/project-2)
  
 #### Landing Page
 ![Landing Page](https://imgur.com/tX6NyvF.png "Home Page")
@@ -45,14 +51,9 @@ Once the scope of our tasks was defined, we proceeded to build wireframes.
 ### API Documentation
 [GoQuotes API](https://goquotes.docs.apiary.io/#)
 
-## Live Demo, Useful Links
-
-[<img alt="Live Demo" src="https://imgur.com/P2NkQ7Q.png" height="35px">](https://dazzling-hoover-5876ce.netlify.app)
-[<img alt="Follow databoy5000" src="https://imgur.com/QCKp4U4.png" height="35px">](https://github.com/login?return_to=%2Fdataboy5000)
-[<img alt="Client Repository" src="https://imgur.com/XyaL8Dg.png" height="35px">](https://github.com/databoy5000/project-2)
-
 ### Table of Contents
 + [Summary](#summary)
+  - [Live Demo, Useful Links](#live-demo-useful-links)
   - [Landing Page](#landing-page)
   - [Quotes Pages](#quotes-pages)
   - [Random Quote Page](#random-quote-page)
