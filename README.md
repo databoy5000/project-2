@@ -45,6 +45,12 @@ Once the scope of our tasks was defined, we proceeded to build wireframes.
 ### API Documentation
 [GoQuotes API](https://goquotes.docs.apiary.io/#)
 
+## Live Demo, Useful Links
+
+[<img alt="Live Demo" src="https://imgur.com/P2NkQ7Q.png" height="35px">](https://dazzling-hoover-5876ce.netlify.app)
+[<img alt="Follow databoy5000" src="https://imgur.com/QCKp4U4.png" height="35px">](https://github.com/login?return_to=%2Fdataboy5000)
+[<img alt="Client Repository" src="https://imgur.com/XyaL8Dg.png" height="35px">](https://github.com/databoy5000/project-2)
+
 ### Table of Contents
 + [Summary](#summary)
   - [Landing Page](#landing-page)
