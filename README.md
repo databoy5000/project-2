@@ -1,14 +1,26 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Reacathon
 
 ## Quotetionary
-### Summary
-The assignment was to create a React app rendered in a web browser, with data consumed from a public API, in a paired team within a day and a half.
-For the MVP version, we choose to make a quote bank app, with the following features supported:
+by [Ali Khan Kausar](https://github.com/Aliwebs) and [Anthony Graham](https://github.com/databoy5000/).
+
+### Overview
+The assignment was to create a React app rendered in a web browser, with data consumed from a public API, in a paired team within a day and a half. For the MVP version, we choose to make a 'quote bank' app
+
+#### Brief
+* **Consume a public API** – this could be anything but it must make sense for your project.
+* **Have several components** - At least one classical and one functional.
+* **The app can have a router** - with several "pages", this is up to your disgression and if it makes sense for your project.
+* **Include wireframes** - that you designed before building the app.
+* **Be deployed online** and accessible to the public.
+
+#### Approach
+First, we agreed on the API we wanted to consume. Then, we discussed to have the following features supported:
 - Users can pull a single random quote.
 - Display all quotes available in the API on a single page.
  - Filter quotes by:
    - Tag
    - Author
+
 We also defined some stretch goals/additional feature ideas whilst brainstorming:
 - Infinite scrolling
 - Search by keyword
@@ -17,48 +29,52 @@ We also defined some stretch goals/additional feature ideas whilst brainstorming
  - Where 'Dislike' removes the quote to be displayed.
 - Pick a random quote from the selected tag.
 - Consolidate current API data with an additional API to augment UX.
+
 Once the scope of our tasks was defined, we proceeded to draw wireframes, then to build the MVP.
  
 The constraints of the project were to build linearly as a pair, without contributing through GitHub, with the possibility to use Live Share. What we ended up doing is working together on the same components, occasionally splitting tasks but mainly coding components together, using a conferencing app to communicate and share screens as well as Live Sharing our editor.
- 
+
 #### Live Demo, Useful Links
- 
 [<img alt="Live Demo" src="https://imgur.com/P2NkQ7Q.png" height="35px">](https://dazzling-hoover-5876ce.netlify.app)
 [<img alt="Follow databoy5000" src="https://imgur.com/QCKp4U4.png" height="35px">](https://github.com/login?return_to=%2Fdataboy5000)
 [<img alt="Client Repository" src="https://imgur.com/XyaL8Dg.png" height="35px">](https://github.com/databoy5000/project-2)
 
-#### Landing Page
+#### Wireframes
+- <ins>Landing Page</ins>
 ![Landing Page](https://imgur.com/tX6NyvF.png "Home Page")
 
-#### Quotes Pages
+- <ins>Quotes Page</ins>
 ![Quotes Pages](https://imgur.com/AURFfAB.png "Quotes Page")
 
-#### Random Quote Page
+- <ins>Random Quote Page</ins>
 ![Random Quote Page](https://imgur.com/od8BPNQ.png "Random Quote Page")
 
-### Technologies
-- HTML
-- SCSS
-- JavaScript/JSX
-- React
-- Git & GitHub
+#### Technologies
 
-### Libraries
+<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+<img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+<img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
+<img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+<img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+<img alt="Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+
+#### Libraries
 - Bulma Framework
 - Axios
 
-### API Documentation
+#### API Documentation
 [GoQuotes API](https://goquotes.docs.apiary.io/#)
  
 ### Table of Contents
-+ [Summary](#summary)
-  - [Live Demo, Useful Links](#live-demo-useful-links)
-  - [Landing Page](#landing-page)
-  - [Quotes Pages](#quotes-pages)
-  - [Random Quote Page](#random-quote-page)
-+ [Technologies](#technologies)
-+ [Libraries](#libraries)
-+ [API Documentation](#api-documentation)
++ [Overview](#overview)
+  - [Brief](#brief)
+  - [Approach](#approach)
+  - [Live Demo, Useful Links](#live-demo--useful-links)
+  - [Wireframes](#wireframes)
+  - [Technologies](#technologies)
+  - [Libraries](#libraries)
+  - [API Documentation](#api-documentation)
 + [Table of Contents](#table-of-contents)
 + [Pages](#pages)
 + [Functionalities](#functionalities)
@@ -69,7 +85,7 @@ The constraints of the project were to build linearly as a pair, without contrib
 + [In-app Screenshots](#in-app-screenshots)
 + [Challenges](#challenges)
 + [Wins](#wins)
-+ [Lessons Learnt](#lessons-learnt)
++ [Key Learnings](#key-learnings)
   - [Version Control](#version-control)
   - [Debugging](#debugging)
   - [Multiple API calls into one function](#multiple-api-calls-into-one-function)
@@ -83,7 +99,7 @@ The constraints of the project were to build linearly as a pair, without contrib
 
 ### Functionalities
 #### API request & Local Storage
-Below, we are making multiple API requests into one function and saving the result into local storage. This way there isn't a need to make these requests every page load, since it isn't a priority to display new quotes across the array of 8k+ quote objects to users.
+Below, we are making multiple API requests into one function and saving the result into `localStorage`. This way, the app only makes a single GET request to GoQuotes (8k+ quote objects) (when the component mounts once), at the time when the user l0ads the app for the first time (the drawback is that there currently isn't a system in place to delete the quotes in localStorage when the user leaves/closes the app).
 
 ```js
 export async function getApiData() {
@@ -180,10 +196,10 @@ At last, `loadingArray` is the final endpoint to display the quotes within the p
 ### Challenges
 The main challenge was to work through the project linearly as a pair where we were taking turns to code, as opposed to working separately on different components or parts of a component.
  
-Additionally, the timeframe to complete a project felt short since React was yet very new to us.
+Additionally, the timeframe to complete a project felt short since React was still new to us.
  
 ### Wins
-I'm pleased with the final result of our output and my contribution towards the project. Also, that I managed to create and implement my first hook `useFilter.js` is gratifying. I think that it was a great exercise to consolidate recent learnings and feel more confidence to code in React.
+I'm pleased with the final result of our output and my contribution towards the project. Also, that I managed to create and implement my first hook `useFilter.js` is gratifying. I think that it was a great exercise to consolidate recent learnings and feel more confident to code in React.
  
 ### Key Learnings
 #### Version Control
