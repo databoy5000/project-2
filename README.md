@@ -4,7 +4,7 @@
 by [Ali Khan Kausar](https://github.com/Aliwebs) and [Anthony Graham](https://github.com/databoy5000/).
 
 ### Overview
-The assignment was to create a React app rendered in a web browser, with data consumed from a public API, in a paired team within a day and a half. For the MVP version, we choose to make a 'quote bank' app
+The assignment was to create a React app rendered in a web browser, with data consumed from a public API, in a paired team within a day and a half. For the MVP version, we choose to make a 'quote bank' app.
 
 #### Brief
 * **Consume a public API** – this could be anything but it must make sense for your project.
@@ -18,13 +18,13 @@ First, we agreed on the API we wanted to consume. Then, we discussed to have the
 - Users can pull a single random quote.
 - Display all quotes available in the API on a single page.
  - Filter quotes by:
-   - Tag
-   - Author
+   - Tag.
+   - Author.
 
 We also defined some stretch goals/additional feature ideas whilst brainstorming:
-- Infinite scrolling
-- Search by keyword
-- Like/Dislike button
+- Infinite scrolling.
+- Search by keyword.
+- Like/Dislike button.
  - Where 'Like' adds more quotes from the same author, displayed at the top of all the quotes.
  - Where 'Dislike' removes the quote to be displayed.
 - Pick a random quote from the selected tag.
@@ -212,7 +212,7 @@ With React, I felt a lot more comfortable console logging each step at the time,
 The syntax was new to me and it wasn't a straightforward job to consolidate the API calls together and debug the function. Breaking code was a useful operation to understand the moving parts of a call.
 
 #### Team work makes the dream work
-I believe it's very important to define ahead of coding all of the necessary steps to complete a project (e.g. defining the app specifications, sudo coding, github), to split tasks between developers in an efficient manner, and to be agile with project's management. Without these steps, it is easy to waste time and resources to solve problems which could've been identified and/or avoided during the planning process.
+I believe it's very important to define ahead of coding all of the necessary steps to complete a project (e.g. defining the app specifications, pseudocoding, GitHub), to split tasks between developers in an efficient manner, and to be agile with project's management. Without these steps, it is easy to waste time and resources to solve problems which could've been identified and/or avoided during the planning process.
 
 ### Credits
 - [Go Quotes](https://goquotes.docs.apiary.io/): free open source API.
